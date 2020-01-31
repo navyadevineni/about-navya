@@ -14,6 +14,7 @@ It is a Git command line utility which is used to target an existing repo and cr
 1. git Commit :  [gitCommit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 
 Commit command is used to save your changes to the local repo.You have to explicitly tell Git which changes you want to include in a commit before running commit command.
+
 1.TortoiseGit : [TortoiseGit](https://tortoisegit.org/)
 
 It is a Git revision control client, implemented as a Windows shell extension and based on TortoiseSVN.
