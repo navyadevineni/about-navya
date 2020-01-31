@@ -1,4 +1,4 @@
-# about-navya
+# about-navya :relaxed:
 ## Repository Links
 - [source repository](https://github.com/navyadevineni/about-navya)
 - [hosted page](https://navyadevineni.github.io/about-navya/)
