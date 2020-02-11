@@ -1,3 +1,4 @@
+<<<<<<< .mine
 language: ruby
 rvm:
 - 2.4.1
@@ -10,3 +11,21 @@ sudo: false
 cache: bundler
 notifications:
   email: false
+
+
+=======
+language:      node_js
+git:
+  depth:       3
+node_js:
+  - "node"
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
+notifications:
+  email:       false
+>>>>>>> .theirs

@@ -1,5 +1,13 @@
+<<<<<<< .mine
 _site
 .sass-cache
 node_modules
 Gemfile.lock
 *.gem
+=======
+node_modules
+
+
+
+
+>>>>>>> .theirs
