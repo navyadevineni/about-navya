@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 // Load plugins
 const gulp = require("gulp");
 
@@ -44,7 +44,7 @@ gulp.task('vendor', function(cb) {
 });
 
 gulp.task("default", gulp.parallel('vendor'));
-=======
+
 "use strict";
 
 // Load plugins
@@ -179,5 +179,4 @@ exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
-exports.default = build;
->>>>>>> 4bdddb858bb12c4f8f7423ef60aca22ce745ef2e
+exports.default = build; 
