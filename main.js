@@ -11,7 +11,7 @@ const updateWithAdd = async (event) => {
   }
 
   document.addEventListener('click', event => {
-  if (event.target && event.target.id === 'addButton') { updateWithAdd(event) }
+  if (event.target && event.target.id === 'addButton') { updateWithCode(event) }
 })
 
 document.addEventListener('click', event => {

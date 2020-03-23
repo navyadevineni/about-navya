@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
     })
 })
 function mult(x,y){
-    return x*y
+    return x/y
 }
 QUnit.test("TEST first number validation", assert => {
   const input = document.querySelector('#firstInput')
