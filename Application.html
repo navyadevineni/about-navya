@@ -67,3 +67,67 @@
     <span id="firstWarning" class="text-danger"></span>
   </fieldset>
   <button id="button" class="btn btn-primary" onclick="updatewithcode()">Calculate</button>
+  <button id="wiper" class="btn btn-danger" >Clear</button>
+  <button id="getJokeButton" class="btn btn-success">Fetch Joke</button>
+  
+  <hr>
+  <p id="result"></p>
+
+</div>
+<!-- end column 2-->
+
+<!--</div>
+ end row 1 -->
+ <div id="demo">
+  <h3>AJAX</h3>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+  </div>
+  
+  <script>
+  function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("demo").innerHTML =
+        this.responseText;
+      }
+    };
+    xhttp.open("GET", "ajax.txt", true);
+    xhttp.send();
+  }
+  </script>
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template-->
+  <script src="js/resume.min.js"></script>
+  <script src="main.js"></script>
+  
+  <script src="fetch-joke.js"></script>
+ 
+  <script src="main.test.js"></script>
+        <footer id="b">
+           <!-- sticky footer with padding on y-axis (top and bottom) -->
+  <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted">Right-click / Inspect / Console</span>
+        &#9670;
+      <a href="quint.html">View Tests</a>
+      &#9670;
+        <a href="https://chinmayi98.github.io/p2-styled-site/">Demo</a>
+        &#9670;
+        <a href="https://github.com/Chinmayi98/p2-styled-site">Source</a>
+      </div>
+    </footer>
+           &copy; Chinmayi Ambati 
+       </footer>
+
+                </body>
+                </html>
