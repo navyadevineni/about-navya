@@ -1,5 +1,5 @@
 
-const mult = (i, j) => { return i*j }
+const mult = (i, j) => { return i/j }
 
 const updateWithAdd = async (event) => {
   document.querySelector('#result').innerHTML = ''
